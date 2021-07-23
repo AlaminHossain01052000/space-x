@@ -1,0 +1,104 @@
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;  
+    background-color: rgba(0,0,0);
+}
+ul{
+    list-style: none;
+}
+
+/* header starts here */
+
+.navbar{
+    background-color: rgba(86, 49, 173, 0.4);
+}
+
+.navbar-toggler{
+    background-color: rgba(86, 49, 173, 0.4); 
+    border:0px solid;
+    color: black;
+    
+}
+.navbar-toggler-icon{
+    color:white;
+}
+
+/* slider section starts here */
+
+.slider img{
+    height:48vw;
+}
+
+/* our-properties starts here */
+.card-title{
+    color:rgb(3, 26, 27);
+    font-weight:600;
+}
+.card-text{
+    color:rgb(36, 116, 196);
+}
+.card-footer{
+    background: rgba(0,0,0,0.6);
+}
+/* about-us starts here */
+.about-us .card-body{
+    background-color: white;
+}
+/* our-clients starts here */
+.our-clients{
+    background-color: white;
+}
+
+.client-review{
+    padding:0px;
+}
+.client-text{
+    color:white;
+    font-size: 1.2em;
+    font-style: italic;
+    
+}
+.client-title{
+    font-size: 1.5em;
+    font-weight:600;
+    color:cyan;
+    margin-top:25px;
+}
+.our-clients .row .card{
+    background-color: black;
+}
+.our-clients .row .card ul li a i{
+    color:chartreuse;
+}
+/* contact-us starts here */
+.contact-us{
+    background-image: url(images/contact-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100%;
+    
+    
+}
+.form-control{
+    background-color:rgba(0,0,0,0.6);
+    width:30%;
+    margin:15px 0px;
+    
+}
+.form-control:focus {
+    color:white;
+    background-color: rgba(0,0,0,0.6);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+label{
+    color:white;
+}
+.contact-info{
+    color:white;
+}
+.contact-info p{
+    margin:20px 0px;
+}
